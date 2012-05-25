@@ -18,10 +18,13 @@
 <textarea id="elm1" name="elm1" rows="15" cols="80" style="width: 80%" 
 runat="server"></textarea>
 
+<asp:Button ID="Button1" runat="server" onclick="Button1_Click" Text="Button" />
+
+<asp:TextBox ID="TextBox1" runat="server" Height="234px" Width="734px"></asp:TextBox>
                </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="navmenu" runat="server">
-		<!-- Tabs -->
+        <!-- Tabs -->
 		<h2 class="demoHeaders">Tabs</h2>
 		<div id="tabs">
 			<ul>
@@ -36,7 +39,7 @@ runat="server"></textarea>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
-<h1>Welcome to jQuery UI!</h1>
+    <h1>Welcome to jQuery UI!</h1>
 	<p style="font-size: 1.3em; line-height: 1.5; margin: 1em 0; width: 50%;">This page demonstrates the widgets you downloaded using the theme you selected in the download builder. We've included and linked to minified versions of <a href="js/jquery-1.7.2.min.js">jQuery</a>, your personalized copy of <a href="js/jquery-ui-1.8.20.custom.min.js">jQuery UI (js/jquery-ui-1.8.20.custom.min.js)</a>, and <a href="css/smoothness/jquery-ui-1.8.20.custom.css">css/smoothness/jquery-ui-1.8.20.custom.css</a> which imports the entire jQuery UI CSS Framework. You can choose to link a subset of the CSS Framework depending on your needs. </p>
 	<p style="font-size: 1.2em; line-height: 1.5; margin: 1em 0; width: 50%;">You've downloaded components and a theme that are compatible with jQuery 1.3+. Please make sure you are using jQuery 1.3+ in your production environment.</p>
 

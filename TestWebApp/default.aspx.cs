@@ -13,5 +13,12 @@ namespace TestWebApp
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            TextBox1.Text = elm1.Value;
+        }
+
+
     }
 }
